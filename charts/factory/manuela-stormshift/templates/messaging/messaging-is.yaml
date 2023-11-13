@@ -7,13 +7,6 @@ spec:
   lookupPolicy:
     local: true
   tags:
-  - name: 0.3.2-299
-    from:
-      kind: DockerImage
-      name: quay.io/css-qe/iot-consumer:0.3.2-299
-    importPolicy: {}
-    referencePolicy:
-      type: Local
   - name: 0.3.2-300
     from:
       kind: DockerImage
@@ -39,6 +32,13 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/css-qe/iot-consumer:0.3.2-303
+    importPolicy: {}
+    referencePolicy:
+      type: Local
+  - name: 0.3.2-304
+    from:
+      kind: DockerImage
+      name: quay.io/css-qe/iot-consumer:0.3.2-304
     importPolicy: {}
     referencePolicy:
       type: Local
